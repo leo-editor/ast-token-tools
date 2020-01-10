@@ -10,5 +10,5 @@ git log --name-only --pretty="format:" --follow  "${1}" \
 && echo "moving to destination repo at ${2}" \
 && cd "${2}" \
 && echo "applying patch" \
-&& git am --committer-date-is-author-date < _patch_ \
+&& git am --committer-date-is-author-date -m --first-parent < _patch_ \
 && echo "OK"
