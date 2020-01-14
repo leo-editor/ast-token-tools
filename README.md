@@ -5,8 +5,9 @@ The overall goal is to publish [Leo Editor][1]'s [AST parser][2] as a standalone
 
 This repo is highly experimental while we figure the best way to package the project. The library however has a lot of development and testing behind it and is not (so) experimental.
 
+Requires: Python 3.6 or greater
+
 # Development environment
-Python 3.6+
 
 *Example using Anaconda/Miniconda environment manager.*
 
