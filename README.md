@@ -1,5 +1,4 @@
-# last
-Last/Leo Abstract Syntax Tree Parser (provisional name)
+# Abstract Syntax Tree and Token Tools
 
 The overall goal is to publish [Leo Editor][1]'s [AST parser][2] as a standalone library that can be used by any python project.
 
